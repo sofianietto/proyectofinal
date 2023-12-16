@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de peso ideal</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1>Calcular rango de peso ideal</h1>
+            <div class="nolose">
+
+                <div class="uno">
+                    
+                    <h3>Selecione su sexo</h3>
+                    <img src="imagen.png" class="imagen">
+                    <select id="sexo">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    </select>
+
+                </div>
+
+                <div class="dos">
+
+                    <p><h3>¿Cuántos años tienes?</h3></p>
+                    <input type="number" id="edadinput" placeholder="20">
+                    <span class="span">años</span>
+
+                </div>
+
+                <div class="tres">
+
+                    <p><h3>¿Cuánto mides?</h3></p>
+                    <input type="number" id="alturainput" placeholder="160">
+                    <span class="span">cm</span>
+
+                </div>
+                
+            </div>
+            
+            <button id="button">Calcular</button>
+            <div id="contenedor2">
+                
+                <h2 id="respuesta"></h2>
+                <div id="resultados">
+                    <h4 id="pesoideal"></h4>
+                    <div class="caja">
+                        <p class="item textinf resultado" id="bajopeso"></p>
+                        <p class="item textinf resultado" id="normal"></p>
+                        <p class="item textinf resultado" id="sobrepeso"></p>
+                        <p class="item textinf resultado" id="obesidad"></p>
+                        <p class="item textinf resultado" id="obesidad2"></p>
+                    </div>
+                    <div class="decoracion"></div>
+                    <div id="texteres">
+                        <p class="textinf2">Bajo peso</p>
+                        <p class="textinf2">Peso ideal</p>
+                        <p class="textinf2">Sobrepeso</p>
+                        <p class="textinf2">Obesidad</p>
+                        <p class="textinf2">Obesidad Mórbida</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
